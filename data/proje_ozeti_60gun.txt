@@ -1,0 +1,76 @@
+📊 SPOR SALONU ÇELİK TAKVİYE PROJESİ - 60 İŞ GÜNÜ PLANI
+
+🎯 TOPLAM SÜRE HEDEFİ: 60 İş Günü
+📅 BAŞLANGIÇ TARİHİ: 16 Temmuz 2025
+
+📋 PROJE YAPILANMASI:
+
+📌 GENEL HAZIRLIK (3 gün)
+├── Proje Başlangıcı: 1 gün
+├── Genel Hazırlık ve İnceleme: 2 gün  
+└── Malzeme Tedariki: 3 gün (paralel)
+
+🏗️ MAHAL ÇALIŞMALARI (Paralel Yürütülecek):
+
+1️⃣ SALON (EN BÜYÜK - 24 gün)
+├── İnceleme: 1 gün
+├── Kesim/Demontaj: 5 gün  
+├── İmalat: 7 gün
+├── Montaj: 6 gün
+├── Kaynak: 4 gün
+└── Kontrol: 1 gün
+
+2️⃣ SPOR SALONLARI (26 gün)
+├── İnceleme: 1 gün
+├── Kesim/Demontaj: 6 gün
+├── İmalat: 8 gün  
+├── Montaj: 7 gün
+├── Kaynak: 4 gün
+└── Kontrol: 1 gün
+
+3️⃣ FUAYE ALANI (14 gün)
+├── İnceleme: 1 gün
+├── Kesim/Demontaj: 3 gün
+├── İmalat: 4 gün
+├── Montaj: 3 gün
+├── Kaynak: 2 gün
+└── Kontrol: 1 gün
+
+4️⃣ LOCALAR (11 gün)
+├── İnceleme: 1 gün
+├── Kesim/Demontaj: 2 gün
+├── İmalat: 3 gün
+├── Montaj: 2 gün
+├── Kaynak: 2 gün
+└── Kontrol: 1 gün
+
+5️⃣ TEKNİK OFİSLER (10 gün)
+├── İnceleme: 1 gün
+├── Kesim/Demontaj: 2 gün
+├── İmalat: 3 gün
+├── Montaj: 2 gün
+├── Kaynak: 2 gün
+└── Kontrol: 1 gün
+
+🎨 GENEL BİTİŞ İŞLEMLERİ (8 gün)
+├── Yüzey Temizliği ve Boya: 5 gün
+├── Genel Kalite Kontrol: 2 gün
+└── Proje Teslimi: 1 gün
+
+⏱️ KRİTİK YOL HESABI:
+Hazırlık (3) + En Uzun Mahal (Spor Salonları: 26) + Bitiş (8) = 37 gün
+
+🎯 SONUÇ: Proje 37 iş gününde tamamlanabilir (60 günün altında!)
+
+👥 TOPLAM KAYNAK: 24 Kişi
+├── 5 Ekip Lideri (birer kişi)
+├── 10 Ekip Üyesi (ikişer kişi × 5 mahal)  
+├── Proje Yöneticisi
+├── Kontrol Mühendisi
+├── Tedarik Uzmanı
+└── 2 Boya Ekibi
+
+✅ PARALEL ÇALIŞMA AVANTAJI:
+- 5 mahal aynı anda çalışabilir
+- Kaynak optimizasyonu sağlanır
+- Toplam süre kritik yol ile sınırlıdır
