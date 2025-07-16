@@ -1,0 +1,10 @@
+Name,Duration,Start,ResourceNames,Predecessors
+Proje Baslangici,1d,2025-07-16,Proje Yoneticisi,
+Mevcut Durum Incelemesi,2d,,Proje Yoneticisi;Kontrol Muhendisi,1FS
+Kesim ve Demontaj,3d,,Demontaj Ekibi,2FS
+Yeni Celik Elemanlarin Imalati,7d,,Imalat Ekibi,3FS
+Celik Elemanlarin Montaji,5d,,Montaj Ekibi,4FS
+Kaynak Islemleri,3d,,Kaynakci,5FS
+Yuzey Temizligi ve Boya,4d,,Boya Ekibi,6FS
+Kontrol ve Kabul,2d,,Kontrol Muhendisi;Proje Yoneticisi,7FS
+Proje Kapanisi,1d,,Proje Yoneticisi,8FS
