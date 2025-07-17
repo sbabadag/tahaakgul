@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 from datetime import datetime
 
-CSV_FILE   = Path(r"C:\softspace\tahaakgulplanlama\data\spor_salonu_celik_takviye_son.csv")
+CSV_FILE   = Path(r"C:\softspace\tahaakgulplanlama\data\spor_salonu_celik_takviye.csv")
 MPP_OUTPUT = Path(r"C:\softspace\tahaakgulplanlama\data\TahaAkgul.mpp")
 
 # CSV dosyasının varlığını kontrol et
@@ -62,10 +62,10 @@ try:
             
             # Kaynak türüne göre özellikler belirle
             if any(keyword in resource_name for keyword in ["Kaynakçı", "Fitter", "Proje Yöneticisi", "Usta Başı"]):
-                resource.Type = 1  # İnsan kaynağı (Work)
+                # İnsan kaynağı (Work)
                 resource.MaxUnits = 100  # %100 kullanım
             else:
-                resource.Type = 2  # Ekipman/Malzeme (Material)
+                # Ekipman/Malzeme (Material)
                 resource.MaxUnits = 100  # %100 kullanım
                 
             print(f"Kaynak eklendi: {resource_name}")
@@ -126,19 +126,31 @@ try:
         for i, row in enumerate(reader, start=1):
             t = task_objs[i-1]
             
-            # Önce kaynak
+            # Önce kaynak ataması
             if row.get('ResourceNames'):
                 for r in row['ResourceNames'].split(';'):
                     r = r.strip()
                     if r:
                         try:
-                            resource = proj.Resources.Item(r)
-                            # Doğru kaynak atama yöntemi
-                            assignment = proj.Assignments.Add(TaskID=t.ID, ResourceID=resource.ID)
+                            # Kaynağı bul
+                            resource = None
+                            for res in proj.Resources:
+                                if res.Name == r:
+                                    resource = res
+                                    break
+                            
+                            if resource:
+                                # Doğru kaynak atama yöntemi
+                                assignment = proj.Assignments.Add()
+                                assignment.TaskUniqueID = t.UniqueID
+                                assignment.ResourceUniqueID = resource.UniqueID
+                                print(f"    Kaynak atandı: {r} -> {t.Name}")
+                            else:
+                                print(f"Uyarı: Kaynak '{r}' bulunamadı")
                         except Exception as e:
                             print(f"Uyarı: Kaynak '{r}' görev '{t.Name}' için atanamadı: {e}")
             
-            # Sonra ilişki
+            # Sonra bağımlılık ilişkileri
             if row.get('Predecessors'):
                 for pred in row['Predecessors'].split(';'):
                     pred = pred.strip()
