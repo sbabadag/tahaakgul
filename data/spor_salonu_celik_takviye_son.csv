@@ -1,0 +1,51 @@
+Name,Duration,Start,ResourceNames,Predecessors
+Proje Başlangıcı,1d,2025-07-21,Proje Yöneticisi,
+Genel Hazırlık ve İnceleme,4d,,Proje Yöneticisi;Usta Başı,1FS
+Malzeme Tedariki,7d,,Proje Yöneticisi,2FS
+Proje Koordinasyon Toplantısı,2d,,Proje Yöneticisi;Usta Başı,3FS
+
+Tüm Mahaller Mevcut Durum İncelemesi,,,,,
+Salon Mevcut Durum İncelemesi,3d,,Proje Yöneticisi;Usta Başı;Kaynakçı1;Kaynakçı2;Fitter1,4FS
+Fuaye Mevcut Durum İncelemesi,2d,,Usta Başı;Kaynakçı3;Fitter2,4FS
+Spor Salonları Mevcut Durum İncelemesi,3d,,Proje Yöneticisi;Usta Başı;Kaynakçı4;Kaynakçı5;Fitter3,4FS
+Localar Mevcut Durum İncelemesi,2d,,Usta Başı;Kaynakçı6;Fitter4,4FS
+Teknik Ofisler Mevcut Durum İncelemesi,2d,,Usta Başı;Kaynakçı7;Fitter5,4FS
+
+Tüm Mahaller Kesim ve Demontaj (Eşzamanlı),,,,,
+Salon Kesim ve Demontaj,8d,,Kaynakçı1;Kaynakçı2;Fitter1;Fitter2;Manlift1;Iskele;Kaynak Makinesi1;Kaynak Makinesi2,5FS
+Fuaye Kesim ve Demontaj,6d,,Kaynakçı3;Kaynakçı4;Fitter3;Fitter4;Manlift1;Iskele;Kaynak Makinesi3;Kaynak Makinesi4,6FS
+Spor Salonları Kesim ve Demontaj,9d,,Kaynakçı5;Kaynakçı6;Kaynakçı7;Fitter5;Fitter6;Fitter7;Manlift2;Iskele;Kaynak Makinesi5;Kaynak Makinesi6;Kaynak Makinesi7,7FS
+Localar Kesim ve Demontaj,4d,,Kaynakçı8;Kaynakçı9;Fitter8;Fitter9;Manlift1;Iskele;Kaynak Makinesi8;Kaynak Makinesi9,8FS
+Teknik Ofisler Kesim ve Demontaj,4d,,Kaynakçı10;Kaynakçı11;Fitter10;Fitter11;Manlift2;Iskele;Kaynak Makinesi10;Kaynak Makinesi11,9FS
+
+Tüm Çelik Elemanların İmalatı (Merkezi - Eşzamanlı),,,,,
+Salon Çelik Elemanların İmalatı,12d,,Kaynakçı1;Kaynakçı2;Fitter1;Fitter2;Kaynak Makinesi1;Kaynak Makinesi2,10FS
+Fuaye Çelik Elemanların İmalatı,8d,,Kaynakçı3;Kaynakçı4;Fitter3;Fitter4;Kaynak Makinesi3;Kaynak Makinesi4,11FS
+Spor Salonları Çelik Elemanların İmalatı,14d,,Kaynakçı5;Kaynakçı6;Kaynakçı7;Fitter5;Fitter6;Fitter7;Kaynak Makinesi5;Kaynak Makinesi6;Kaynak Makinesi7,12FS
+Localar Çelik Elemanların İmalatı,6d,,Kaynakçı8;Kaynakçı9;Fitter8;Fitter9;Kaynak Makinesi8;Kaynak Makinesi9,13FS
+Teknik Ofisler Çelik Elemanların İmalatı,6d,,Kaynakçı10;Kaynakçı11;Fitter10;Fitter11;Kaynak Makinesi10;Kaynak Makinesi11,14FS
+
+Tüm Mahaller Montaj İşlemleri (Eşzamanlı),,,,,
+Salon Montaj İşlemleri,10d,,Kaynakçı1;Kaynakçı2;Fitter1;Fitter2;Fitter12;Fitter13;Manlift1;Iskele,15FS
+Fuaye Montaj İşlemleri,6d,,Kaynakçı3;Kaynakçı4;Fitter3;Fitter4;Manlift1;Iskele,16FS
+Spor Salonları Montaj İşlemleri,12d,,Kaynakçı5;Kaynakçı6;Kaynakçı7;Fitter5;Fitter6;Fitter7;Fitter14;Fitter15;Manlift2;Iskele,17FS
+Localar Montaj İşlemleri,4d,,Kaynakçı8;Kaynakçı9;Fitter8;Fitter9;Manlift1;Iskele,18FS
+Teknik Ofisler Montaj İşlemleri,4d,,Kaynakçı10;Kaynakçı11;Fitter10;Fitter11;Manlift2;Iskele,19FS
+
+Tüm Mahaller Kaynak İşlemleri (Eşzamanlı),,,,,
+Salon Kaynak İşlemleri,7d,,Kaynakçı1;Kaynakçı2;Kaynakçı12;Kaynakçı13;Manlift1;Iskele;Kaynak Makinesi1;Kaynak Makinesi2,20FS
+Fuaye Kaynak İşlemleri,4d,,Kaynakçı3;Kaynakçı4;Manlift1;Iskele;Kaynak Makinesi3;Kaynak Makinesi4,21FS
+Spor Salonları Kaynak İşlemleri,8d,,Kaynakçı5;Kaynakçı6;Kaynakçı7;Kaynakçı14;Manlift2;Iskele;Kaynak Makinesi5;Kaynak Makinesi6;Kaynak Makinesi7,22FS
+Localar Kaynak İşlemleri,3d,,Kaynakçı8;Kaynakçı9;Manlift1;Iskele;Kaynak Makinesi8;Kaynak Makinesi9,23FS
+Teknik Ofisler Kaynak İşlemleri,3d,,Kaynakçı10;Kaynakçı11;Manlift2;Iskele;Kaynak Makinesi10;Kaynak Makinesi11,24FS
+
+Tüm Mahaller Kalite Kontrol (Eşzamanlı),,,,,
+Salon Kalite Kontrol,2d,,Proje Yöneticisi;Usta Başı;Manlift1;Iskele,25FS
+Fuaye Kalite Kontrol,2d,,Proje Yöneticisi;Usta Başı;Manlift1;Iskele,26FS
+Spor Salonları Kalite Kontrol,3d,,Proje Yöneticisi;Usta Başı;Manlift2;Iskele,27FS
+Localar Kalite Kontrol,1d,,Proje Yöneticisi;Usta Başı;Manlift1;Iskele,28FS
+Teknik Ofisler Kalite Kontrol,1d,,Proje Yöneticisi;Usta Başı;Manlift2;Iskele,29FS
+
+Genel Bitiş İşlemleri,,,,,
+Genel Yüzey Temizliği ve Boya,8d,,Kaynakçı15;Kaynakçı16;Fitter16;Fitter17;Manlift1;Manlift2;Iskele,30;31;32;33;34FS
+Proje Kapanışı ve Teslim,2d,,Proje Yöneticisi;Usta Başı,35FS

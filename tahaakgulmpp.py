@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 from datetime import datetime
 
-CSV_FILE   = Path(r"C:\softspace\tahaakgulplanlama\data\plan.csv")
+CSV_FILE   = Path(r"C:\softspace\tahaakgulplanlama\data\spor_salonu_celik_takviye_son.csv")
 MPP_OUTPUT = Path(r"C:\softspace\tahaakgulplanlama\data\TahaAkgul.mpp")
 
 # CSV dosyasının varlığını kontrol et
@@ -19,38 +19,60 @@ try:
     app = win32.Dispatch("MSProject.Application")
     app.Visible = True
     proj = app.Projects.Add()          # yeni boş proje
+    
+    # Proje özelliklerini ayarla
+    proj.Title = "Spor Salonu Çelik Takviye İşleri"
+    proj.Author = "Taha Akgül"
+    proj.Comments = "60 gün süreli spor salonu çelik takviye projesi - Eşzamanlı çalışma optimizasyonu"
+    proj.ProjectStart = "7/21/2025"  # MM/DD/YYYY formatı
+    
+    print("Proje oluşturuldu ve özellikler ayarlandı.")
 except Exception as e:
     print(f"Hata: Microsoft Project başlatılamadı: {e}")
     print("Microsoft Project'in yüklü olduğundan emin olun.")
     sys.exit(1)
 
-# Kaynak havuzu (Resource Sheet)
+# Önce tüm kaynakları tanımla
+resources_to_add = [
+    # İnsan kaynakları
+    "Proje Yöneticisi", "Usta Başı",
+    # 16 Kaynakçı
+    "Kaynakçı1", "Kaynakçı2", "Kaynakçı3", "Kaynakçı4", "Kaynakçı5", "Kaynakçı6", 
+    "Kaynakçı7", "Kaynakçı8", "Kaynakçı9", "Kaynakçı10", "Kaynakçı11", "Kaynakçı12",
+    "Kaynakçı13", "Kaynakçı14", "Kaynakçı15", "Kaynakçı16",
+    # 17 Fitter/Montajcı 
+    "Fitter1", "Fitter2", "Fitter3", "Fitter4", "Fitter5", "Fitter6", "Fitter7",
+    "Fitter8", "Fitter9", "Fitter10", "Fitter11", "Fitter12", "Fitter13", "Fitter14",
+    "Fitter15", "Fitter16", "Fitter17",
+    # Ekipmanlar
+    "Manlift1", "Manlift2",  # 2x 26 metre ahtapot manlift
+    "Iskele",  # Çatının tamamını kaplayan üstten yürüyen iskele
+    # 11 Kaynak makinesi
+    "Kaynak Makinesi1", "Kaynak Makinesi2", "Kaynak Makinesi3", "Kaynak Makinesi4",
+    "Kaynak Makinesi5", "Kaynak Makinesi6", "Kaynak Makinesi7", "Kaynak Makinesi8",
+    "Kaynak Makinesi9", "Kaynak Makinesi10", "Kaynak Makinesi11"
+]
+
+print("Kaynaklar tanımlanıyor...")
 try:
-    with CSV_FILE.open(newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            if 'ResourceNames' not in row:
-                print("Hata: CSV'de 'ResourceNames' sütunu bulunamadı")
-                sys.exit(1)
-            for r in row['ResourceNames'].split(';'):
-                r = r.strip()
-                if r:
-                    # Kaynağın zaten var olup olmadığını kontrol et
-                    resource_exists = False
-                    try:
-                        proj.Resources.Item(r)
-                        resource_exists = True
-                    except:
-                        resource_exists = False
-                    
-                    if not resource_exists:
-                        proj.Resources.Add(r)
-except FileNotFoundError:
-    print(f"Hata: CSV dosyası bulunamadı: {CSV_FILE}")
-    sys.exit(1)
-except UnicodeDecodeError:
-    print("Hata: CSV dosyası UTF-8 kodlaması ile okunamadı")
-    sys.exit(1)
+    for resource_name in resources_to_add:
+        try:
+            resource = proj.Resources.Add()
+            resource.Name = resource_name
+            
+            # Kaynak türüne göre özellikler belirle
+            if any(keyword in resource_name for keyword in ["Kaynakçı", "Fitter", "Proje Yöneticisi", "Usta Başı"]):
+                resource.Type = 1  # İnsan kaynağı (Work)
+                resource.MaxUnits = 100  # %100 kullanım
+            else:
+                resource.Type = 2  # Ekipman/Malzeme (Material)
+                resource.MaxUnits = 100  # %100 kullanım
+                
+            print(f"Kaynak eklendi: {resource_name}")
+        except Exception as e:
+            print(f"Uyarı: Kaynak '{resource_name}' eklenemedi: {e}")
+    
+    print(f"Toplam {len(resources_to_add)} kaynak tanımlandı.")
 except Exception as e:
     print(f"Hata: Kaynaklar eklenirken hata oluştu: {e}")
     sys.exit(1)
