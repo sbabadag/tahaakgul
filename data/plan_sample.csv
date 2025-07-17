@@ -1,8 +1,0 @@
-Name,Duration,Start,ResourceNames,Predecessors
-Proje Başlangıcı,1d,2025-07-16,Proje Yöneticisi,
-Analiz Aşaması,5d,,Sistem Analisti;İş Analisti,1FS
-Tasarım Aşaması,7d,,Tasarımcı;Mimar,2FS
-Geliştirme Aşaması,15d,,Yazılımcı;Test Uzmanı,3FS
-Test Aşaması,5d,,Test Uzmanı,4FS
-Dağıtım,2d,,Sistem Yöneticisi;Yazılımcı,5FS
-Proje Kapanışı,1d,,Proje Yöneticisi,6FS
