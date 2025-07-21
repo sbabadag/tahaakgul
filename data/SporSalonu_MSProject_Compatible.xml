@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+    <Title>Spor Salonu Çelik Konstrüksiyon - Uyumlu Format</Title>
+    <Company>Taha Akgül İnşaat</Company>
+    <Manager>Proje Yöneticisi</Manager>
+    <CreationDate>2025-07-21T08:00:00</CreationDate>
+    <StartDate>2025-07-28T08:00:00</StartDate>
+    <FinishDate>2025-10-31T17:00:00</FinishDate>
+    <CurrencySymbol>TL</CurrencySymbol>
+    <DefaultTaskType>1</DefaultTaskType>
+    <DefaultFixedCostAccrual>3</DefaultFixedCostAccrual>
+    <CalendarUID>1</CalendarUID>
+    
+    <!-- Takvim Tanımı -->
+    <Calendars>
+        <Calendar>
+            <UID>1</UID>
+            <Name>Standard</Name>
+            <IsBaseCalendar>1</IsBaseCalendar>
+            <WeekDays>
+                <WeekDay>
+                    <DayType>1</DayType>
+                    <DayWorking>0</DayWorking>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>2</DayType>
+                    <DayWorking>1</DayWorking>
+                    <WorkingTimes>
+                        <WorkingTime>
+                            <FromTime>08:00:00</FromTime>
+                            <ToTime>12:00:00</ToTime>
+                        </WorkingTime>
+                        <WorkingTime>
+                            <FromTime>13:00:00</FromTime>
+                            <ToTime>17:00:00</ToTime>
+                        </WorkingTime>
+                    </WorkingTimes>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>3</DayType>
+                    <DayWorking>1</DayWorking>
+                    <WorkingTimes>
+                        <WorkingTime>
+                            <FromTime>08:00:00</FromTime>
+                            <ToTime>12:00:00</ToTime>
+                        </WorkingTime>
+                        <WorkingTime>
+                            <FromTime>13:00:00</FromTime>
+                            <ToTime>17:00:00</ToTime>
+                        </WorkingTime>
+                    </WorkingTimes>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>4</DayType>
+                    <DayWorking>1</DayWorking>
+                    <WorkingTimes>
+                        <WorkingTime>
+                            <FromTime>08:00:00</FromTime>
+                            <ToTime>12:00:00</ToTime>
+                        </WorkingTime>
+                        <WorkingTime>
+                            <FromTime>13:00:00</FromTime>
+                            <ToTime>17:00:00</ToTime>
+                        </WorkingTime>
+                    </WorkingTimes>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>5</DayType>
+                    <DayWorking>1</DayWorking>
+                    <WorkingTimes>
+                        <WorkingTime>
+                            <FromTime>08:00:00</FromTime>
+                            <ToTime>12:00:00</ToTime>
+                        </WorkingTime>
+                        <WorkingTime>
+                            <FromTime>13:00:00</FromTime>
+                            <ToTime>17:00:00</ToTime>
+                        </WorkingTime>
+                    </WorkingTimes>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>6</DayType>
+                    <DayWorking>1</DayWorking>
+                    <WorkingTimes>
+                        <WorkingTime>
+                            <FromTime>08:00:00</FromTime>
+                            <ToTime>12:00:00</ToTime>
+                        </WorkingTime>
+                        <WorkingTime>
+                            <FromTime>13:00:00</FromTime>
+                            <ToTime>17:00:00</ToTime>
+                        </WorkingTime>
+                    </WorkingTimes>
+                </WeekDay>
+                <WeekDay>
+                    <DayType>7</DayType>
+                    <DayWorking>0</DayWorking>
+                </WeekDay>
+            </WeekDays>
+        </Calendar>
+    </Calendars>
+    
+    <!-- Kaynaklar -->
+    <Resources>
+        <Resource>
+            <UID>1</UID>
+            <ID>1</ID>
+            <Name>Kaynakçı-1</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>25000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>2</UID>
+            <ID>2</ID>
+            <Name>Kaynakçı-2</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>25000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>3</UID>
+            <ID>3</ID>
+            <Name>Fitter-1</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>30000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>4</UID>
+            <ID>4</ID>
+            <Name>Fitter-2</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>30000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>5</UID>
+            <ID>5</ID>
+            <Name>Usta Başı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>40000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>6</UID>
+            <ID>6</ID>
+            <Name>NDT Uzmanı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>35000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>7</UID>
+            <ID>7</ID>
+            <Name>Kalite Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>32000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Personel</Group>
+        </Resource>
+        <Resource>
+            <UID>8</UID>
+            <ID>8</ID>
+            <Name>26m Manlift</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>15000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Ekipman</Group>
+        </Resource>
+        <Resource>
+            <UID>9</UID>
+            <ID>9</ID>
+            <Name>Kaynak Makinesi</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>8000000</StandardRate>
+            <MaxUnits>2.0</MaxUnits>
+            <Group>Ekipman</Group>
+        </Resource>
+        <Resource>
+            <UID>10</UID>
+            <ID>10</ID>
+            <Name>Vinç</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>50000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Araç</Group>
+        </Resource>
+        <Resource>
+            <UID>11</UID>
+            <ID>11</ID>
+            <Name>Mobil İskele</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>20000000</StandardRate>
+            <MaxUnits>1.5</MaxUnits>
+            <Group>Ekipman</Group>
+        </Resource>
+        <Resource>
+            <UID>12</UID>
+            <ID>12</ID>
+            <Name>Plazma Kesim</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>12000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Ekipman</Group>
+        </Resource>
+        <Resource>
+            <UID>13</UID>
+            <ID>13</ID>
+            <Name>NDT Ekipmanı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>30000000</StandardRate>
+            <MaxUnits>1.0</MaxUnits>
+            <Group>Ekipman</Group>
+        </Resource>
+        <Resource>
+            <UID>14</UID>
+            <ID>14</ID>
+            <Name>Emniyet Ekipmanı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <StandardRate>5000000</StandardRate>
+            <MaxUnits>5.0</MaxUnits>
+            <Group>Malzeme</Group>
+        </Resource>
+    </Resources>
+    
+    <!-- Görevler -->
+    <Tasks>
+        <Task>
+            <UID>1</UID>
+            <ID>1</ID>
+            <Name>Salon Alanı - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>1</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-07-28T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>2</UID>
+            <ID>2</ID>
+            <Name>Salon Alanı - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>2</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-07-30T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>3</UID>
+            <ID>3</ID>
+            <Name>Salon Alanı - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>3</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-04T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>4</UID>
+            <ID>4</ID>
+            <Name>Salon Alanı - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>4</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-11T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>5</UID>
+            <ID>5</ID>
+            <Name>Salon Alanı - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>5</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-14T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>6</UID>
+            <ID>6</ID>
+            <Name>Fuaye Alanı - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>6</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-04T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>7</UID>
+            <ID>7</ID>
+            <Name>Fuaye Alanı - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>7</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-06T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>8</UID>
+            <ID>8</ID>
+            <Name>Fuaye Alanı - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>8</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-11T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>9</UID>
+            <ID>9</ID>
+            <Name>Fuaye Alanı - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>9</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-18T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>10</UID>
+            <ID>10</ID>
+            <Name>Fuaye Alanı - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>10</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-21T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>11</UID>
+            <ID>11</ID>
+            <Name>Spor Salonları - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>11</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-11T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>12</UID>
+            <ID>12</ID>
+            <Name>Spor Salonları - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>12</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-13T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>13</UID>
+            <ID>13</ID>
+            <Name>Spor Salonları - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>13</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-18T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>14</UID>
+            <ID>14</ID>
+            <Name>Spor Salonları - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>14</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-25T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>15</UID>
+            <ID>15</ID>
+            <Name>Spor Salonları - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>15</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-28T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>16</UID>
+            <ID>16</ID>
+            <Name>Localar - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>16</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-18T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>17</UID>
+            <ID>17</ID>
+            <Name>Localar - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>17</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-20T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>18</UID>
+            <ID>18</ID>
+            <Name>Localar - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>18</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-25T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>19</UID>
+            <ID>19</ID>
+            <Name>Localar - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>19</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-01T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>20</UID>
+            <ID>20</ID>
+            <Name>Localar - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>20</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-04T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>21</UID>
+            <ID>21</ID>
+            <Name>Teknik Ofisler - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>21</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-25T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>22</UID>
+            <ID>22</ID>
+            <Name>Teknik Ofisler - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>22</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-08-27T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>23</UID>
+            <ID>23</ID>
+            <Name>Teknik Ofisler - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>23</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-01T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>24</UID>
+            <ID>24</ID>
+            <Name>Teknik Ofisler - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>24</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-08T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>25</UID>
+            <ID>25</ID>
+            <Name>Teknik Ofisler - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>25</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-11T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>26</UID>
+            <ID>26</ID>
+            <Name>Ortak Görevler - Zemin Hazırlığı</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>26</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-22T08:00:00</Start>
+            <Duration>PT960M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT960M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>26m Manlift</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>27</UID>
+            <ID>27</ID>
+            <Name>Ortak Görevler - Çelik Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>27</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-24T08:00:00</Start>
+            <Duration>PT2400M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT2400M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Vinç</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Mobil İskele</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>28</UID>
+            <ID>28</ID>
+            <Name>Ortak Görevler - Kaynak İşleri</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>28</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-09-29T08:00:00</Start>
+            <Duration>PT3360M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT3360M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynakçı-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Kaynak Makinesi</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>29</UID>
+            <ID>29</ID>
+            <Name>Ortak Görevler - NDT Kontrol</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>29</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-10-06T08:00:00</Start>
+            <Duration>PT1440M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1440M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>NDT Uzmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>NDT Ekipmanı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+        <Task>
+            <UID>30</UID>
+            <ID>30</ID>
+            <Name>Ortak Görevler - Son Montaj</Name>
+            <Type>1</Type>
+            <IsNull>0</IsNull>
+            <CreateDate>2025-07-21T08:00:00</CreateDate>
+            <WBS>30</WBS>
+            <OutlineLevel>1</OutlineLevel>
+            <Priority>500</Priority>
+            <Start>2025-10-09T08:00:00</Start>
+            <Duration>PT1920M</Duration>
+            <DurationFormat>7</DurationFormat>
+            <Work>PT1920M</Work>
+            <Notes>Alan: Genel, Öncelik: Orta</Notes>
+            <ConstraintType>0</ConstraintType>
+            <CalendarUID>1</CalendarUID>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-1</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Fitter-2</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+            <PredecessorLink>
+                <PredecessorUID>Usta Başı</PredecessorUID>
+                <Type>1</Type>
+            </PredecessorLink>
+        </Task>
+    </Tasks>
+</Project>

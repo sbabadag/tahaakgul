@@ -1,6 +1,34 @@
-"# Taha Akgül Proje Planlama Aracı
+# 🏗️ Spor Salonu Proje Planlama Sistemi
 
-Bu Python scripti, CSV dosyasından Microsoft Project (.mpp) dosyası oluşturur.
+## 🎯 HIZLI BAŞLANGIÇ
+
+### ⚡ Format Uyumlu Çözüm (ÖNERİLEN)
+```batch
+HIZLI_PROJE_FORMAT_FIX.bat
+```
+
+**MS Project'te açmak için:**
+1. Microsoft Project'i açın
+2. Dosya > Aç > Türü: 'XML Files (*.xml)'
+3. `data/SporSalonu_MSProject_Compatible.xml` dosyasını seçin
+4. Import Wizard'da 'New Map' seçin ve tamamlayın
+
+## 📊 Proje Özellikleri
+- **28 görev** - Detaylı çelik konstrüksiyon planı
+- **15 kaynak** - Personel, ekipman, araçlar
+- **Tarih**: 28.07.2025 → 31.10.2025 (3 ay)
+- **Strateji**: 5 alan paralel çalışma
+
+## 🔧 Alternatif Sistemler
+- `HIZLI_PROJE.bat` - COM automation sistemi
+- `HIZLI_PROJE_COM.bat` - Gelişmiş COM automation
+
+## 📖 Detaylar
+Tüm detaylar için `KULLANIM_KILAVUZU.md` dosyasını inceleyin.
+
+---
+**Geliştirici:** Taha Akgül Proje Planlama Sistemi  
+**Versiyon:** 3.0 (Temizlenmiş) - Temmuz 2025
 
 ## Gereksinimler
 

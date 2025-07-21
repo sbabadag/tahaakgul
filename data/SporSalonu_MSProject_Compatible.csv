@@ -1,0 +1,31 @@
+ID,Name,Duration,Start,Finish,Predecessors,Resource Names,Priority,Notes,Outline Level
+1,Salon Alanı - Zemin Hazırlığı,2 days,07/28/2025,,"Fitter-1, 26m Manlift",Salon Alanı,500,"Alan: Genel, Öncelik: Orta",1
+2,Salon Alanı - Çelik Montaj,5 days,07/30/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Salon Alanı,500,"Alan: Genel, Öncelik: Orta",1
+3,Salon Alanı - Kaynak İşleri,7 days,08/04/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Salon Alanı,500,"Alan: Genel, Öncelik: Orta",1
+4,Salon Alanı - NDT Kontrol,3 days,08/11/2025,,"NDT Uzmanı, NDT Ekipmanı",Salon Alanı,500,"Alan: Genel, Öncelik: Orta",1
+5,Salon Alanı - Son Montaj,4 days,08/14/2025,,"Fitter-1, Fitter-2, Usta Başı",Salon Alanı,500,"Alan: Genel, Öncelik: Orta",1
+6,Fuaye Alanı - Zemin Hazırlığı,2 days,08/04/2025,,"Fitter-1, 26m Manlift",Fuaye Alanı,500,"Alan: Genel, Öncelik: Orta",1
+7,Fuaye Alanı - Çelik Montaj,5 days,08/06/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Fuaye Alanı,500,"Alan: Genel, Öncelik: Orta",1
+8,Fuaye Alanı - Kaynak İşleri,7 days,08/11/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Fuaye Alanı,500,"Alan: Genel, Öncelik: Orta",1
+9,Fuaye Alanı - NDT Kontrol,3 days,08/18/2025,,"NDT Uzmanı, NDT Ekipmanı",Fuaye Alanı,500,"Alan: Genel, Öncelik: Orta",1
+10,Fuaye Alanı - Son Montaj,4 days,08/21/2025,,"Fitter-1, Fitter-2, Usta Başı",Fuaye Alanı,500,"Alan: Genel, Öncelik: Orta",1
+11,Spor Salonları - Zemin Hazırlığı,2 days,08/11/2025,,"Fitter-1, 26m Manlift",Spor Salonları,500,"Alan: Genel, Öncelik: Orta",1
+12,Spor Salonları - Çelik Montaj,5 days,08/13/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Spor Salonları,500,"Alan: Genel, Öncelik: Orta",1
+13,Spor Salonları - Kaynak İşleri,7 days,08/18/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Spor Salonları,500,"Alan: Genel, Öncelik: Orta",1
+14,Spor Salonları - NDT Kontrol,3 days,08/25/2025,,"NDT Uzmanı, NDT Ekipmanı",Spor Salonları,500,"Alan: Genel, Öncelik: Orta",1
+15,Spor Salonları - Son Montaj,4 days,08/28/2025,,"Fitter-1, Fitter-2, Usta Başı",Spor Salonları,500,"Alan: Genel, Öncelik: Orta",1
+16,Localar - Zemin Hazırlığı,2 days,08/18/2025,,"Fitter-1, 26m Manlift",Localar,500,"Alan: Genel, Öncelik: Orta",1
+17,Localar - Çelik Montaj,5 days,08/20/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Localar,500,"Alan: Genel, Öncelik: Orta",1
+18,Localar - Kaynak İşleri,7 days,08/25/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Localar,500,"Alan: Genel, Öncelik: Orta",1
+19,Localar - NDT Kontrol,3 days,09/01/2025,,"NDT Uzmanı, NDT Ekipmanı",Localar,500,"Alan: Genel, Öncelik: Orta",1
+20,Localar - Son Montaj,4 days,09/04/2025,,"Fitter-1, Fitter-2, Usta Başı",Localar,500,"Alan: Genel, Öncelik: Orta",1
+21,Teknik Ofisler - Zemin Hazırlığı,2 days,08/25/2025,,"Fitter-1, 26m Manlift",Teknik Ofisler,500,"Alan: Genel, Öncelik: Orta",1
+22,Teknik Ofisler - Çelik Montaj,5 days,08/27/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Teknik Ofisler,500,"Alan: Genel, Öncelik: Orta",1
+23,Teknik Ofisler - Kaynak İşleri,7 days,09/01/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Teknik Ofisler,500,"Alan: Genel, Öncelik: Orta",1
+24,Teknik Ofisler - NDT Kontrol,3 days,09/08/2025,,"NDT Uzmanı, NDT Ekipmanı",Teknik Ofisler,500,"Alan: Genel, Öncelik: Orta",1
+25,Teknik Ofisler - Son Montaj,4 days,09/11/2025,,"Fitter-1, Fitter-2, Usta Başı",Teknik Ofisler,500,"Alan: Genel, Öncelik: Orta",1
+26,Ortak Görevler - Zemin Hazırlığı,2 days,09/22/2025,,"Fitter-1, 26m Manlift",Ortak Görevler,500,"Alan: Genel, Öncelik: Orta",1
+27,Ortak Görevler - Çelik Montaj,5 days,09/24/2025,,"Kaynakçı-1, Vinç, Mobil İskele",Ortak Görevler,500,"Alan: Genel, Öncelik: Orta",1
+28,Ortak Görevler - Kaynak İşleri,7 days,09/29/2025,,"Kaynakçı-1, Kaynakçı-2, Kaynak Makinesi",Ortak Görevler,500,"Alan: Genel, Öncelik: Orta",1
+29,Ortak Görevler - NDT Kontrol,3 days,10/06/2025,,"NDT Uzmanı, NDT Ekipmanı",Ortak Görevler,500,"Alan: Genel, Öncelik: Orta",1
+30,Ortak Görevler - Son Montaj,4 days,10/09/2025,,"Fitter-1, Fitter-2, Usta Başı",Ortak Görevler,500,"Alan: Genel, Öncelik: Orta",1
